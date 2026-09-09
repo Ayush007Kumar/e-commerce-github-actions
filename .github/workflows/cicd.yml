@@ -2,9 +2,10 @@
 name: CICD Demo
 
 on:
-  push:
-    paths-ignore:
+  #push:
+  #  paths-ignore:
       - 'README.md'
+workflow_dispatch: # allows you to run the workflow manually from the Actions tab
 
 jobs:
   # CI

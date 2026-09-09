@@ -7,3 +7,4 @@
 - Secrets & Variables
 - GitHub Pages
 - Workflow Dispatch vs push
+- Added python flask and dockerized the application
