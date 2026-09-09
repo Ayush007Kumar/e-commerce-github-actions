@@ -3,7 +3,7 @@ name: Code Lint
 
 
 on:
- workflow call: # allows this workflow to be called from another workflow
+ workflow_call:
 
 jobs:
   code-lint-and-test:
