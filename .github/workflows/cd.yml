@@ -1,7 +1,7 @@
 #GOAL: To deploy the built and tested image to an EC2 instance
 name: CD
 on:
-  workflow_dispatch: # allows you to run the workflow manually from the Actions tab
+  workflow_call: # allows this workflow to be called from another workflow
 jobs:
   deploy:
     runs-on: self-hosted
@@ -11,4 +11,5 @@ jobs:
       
       
       - name: Run Docker container using docker compose
+        run: docker compose down
         run: docker compose up -d

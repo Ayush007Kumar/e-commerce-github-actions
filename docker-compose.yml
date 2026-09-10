@@ -2,4 +2,4 @@ services:
   app:
     image: ayush199496/e-commerce-tws-github-actions
     ports:
-      - "80:80"
+      - "80:8085"
