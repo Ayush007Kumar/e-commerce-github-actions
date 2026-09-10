@@ -1,0 +1,5 @@
+services:
+  app:
+    image: ayush199496/e-commerce-tws-github-actions
+    ports:
+      - "5000:5000"
